@@ -1,6 +1,71 @@
-# Getting Started with Create React App
+# Tic Tac Toe Game in React
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+A simple and interactive Tic Tac Toe game built with React. Play against a friend in your browser with a clean and responsive UI.
+
+## Features
+
+- Classic Tic Tac Toe gameplay
+- Responsive design
+- Visual indicators for player turns (X and O)
+- Game reset functionality
+- Win detection and celebration
+
+## Demo
+
+![Game Screenshot](src/Components/Assests/circle.png) <!-- Replace with actual screenshot if available -->
+
+## Getting Started
+
+These instructions will get you a copy of the project up and running on your local machine for development and testing purposes.
+
+### Prerequisites
+
+- Node.js (v14 or above recommended)
+- npm (comes with Node.js)
+
+### Installation
+
+1. Clone the repository:
+   ```bash
+   git clone https://github.com/your-username/Tic-Tac-Toe-R.git
+   cd Tic-Tac-Toe-R
+   ```
+2. Install dependencies:
+   ```bash
+   npm install
+   ```
+3. Start the development server:
+   ```bash
+   npm start
+   ```
+4. Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+
+## Usage
+
+- Click on any box to make your move.
+- The game will automatically detect a win or draw.
+- Click the "Reset" button to start a new game.
+
+## Folder Structure
+
+```
+Tic-Tac-Toe-R/
+  public/           # Static files
+  src/              # Source code
+    Components/     # React components
+      Assests/      # Game icons (X and O)
+      TicTacToe/    # Main game logic and styles
+  README.md         # Project documentation
+  package.json      # Project metadata and scripts
+```
+
+## License
+
+This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
+
+---
+
+_This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app)._
 
 ## Available Scripts
 
